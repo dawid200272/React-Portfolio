@@ -35,28 +35,30 @@ const Profile = () => {
       <div>
         <h2 className={styles.title}>My Github Profile</h2>
       </div>
-      {isLoaded ? (
-        <div className={styles.profileDataContainer}>
-          {userData?.avatar_url !== undefined ? (
-            <img
-              className={styles.imageContainer}
-              src={userData.avatar_url}
-              alt="github profile image"
-            />
-          ) : (
-            ""
-          )}
-          <div className={styles.text}>
-            <h3>Username: {githubUserName}</h3>
-            <h3>Public repos: {userData?.public_repos}</h3>
+      <div className={styles.profileDataContainer}>
+        {isLoaded ? (
+          <div>
+            {userData?.avatar_url !== undefined ? (
+              <img
+                className={styles.imageContainer}
+                src={userData.avatar_url}
+                alt="github profile image"
+              />
+            ) : (
+              ""
+            )}
+            <div className={styles.text}>
+              <h3>Username: {githubUserName}</h3>
+              <h3>Public repos: {userData?.public_repos}</h3>
+            </div>
+            <div></div>
           </div>
-          <div></div>
-        </div>
-      ) : (
-        <div className={styles.loader}>
-          <CircleLoader color="#fff" size={100} />
-        </div>
-      )}
+        ) : (
+          <div className={styles.loader}>
+            <CircleLoader color="#fff" size={100} />
+          </div>
+        )}
+      </div>
     </section>
   );
 };
