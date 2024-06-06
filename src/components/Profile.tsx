@@ -20,7 +20,7 @@ const Profile = () => {
     const getUserAsync = async () => {
       let user = await fetchUserProfile(githubUserName);
 
-      console.log("user", user);
+      // console.log("user", user);
       setUserData(user);
     };
 
