@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Computer Science Student",
+    "description": "I'm a student majoring in computer science with a specialization in software engineering at University of Bielsko-Biala."
+  },
+  {
+    "title": "Beginner in Game Dev",
+    "description": "I have recently become interested in game dev, and am currently learning how to use the Unity engine. I am still creating a game project that is under development on the Godot engine."
+  },
+  {
+    "title": "Beginner in Blender",
+    "description": "I am trying to explore 3D object modeling using Blender."
+  },
+  {
+    "title": "Beginner in drawing",
+    "description": "In addition, I am trying to develop drawing skills as a more creative hobby."
+  },
+  {
+    "title": "And vector graphisc amateur",
+    "description": "I also tried my hand at creating vector icons."
+  }
+]

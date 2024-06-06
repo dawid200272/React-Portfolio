@@ -1,0 +1,50 @@
+[
+  {
+    "name": "React",
+    "iconPath": "react.svg"
+  },
+  {
+    "name": "Vite",
+    "iconPath": "vite.svg"
+  },
+  {
+    "name": "C#",
+    "iconPath": "c-sharp.svg"
+  },
+  {
+    "name": "TypeScript",
+    "iconPath": "typescript.svg"
+  },
+  {
+    "name": "VueJs",
+    "iconPath": "vue-js.svg"
+  },
+  {
+    "name": "JavaScript",
+    "iconPath": "javascript-js.svg"
+  },
+  {
+    "name": ".NET",
+    "iconPath": "dotnet-vertical.svg"
+  },
+  {
+    "name": "ASP.NET",
+    "iconPath": "aspnet.svg"
+  },
+  {
+    "name": "EF Core",
+    "iconPath": "Vector_Entity-Framework-Core-Logo_2colors_Square_Boxed_RGB.svg"
+  },
+  {
+    "name": "Unity",
+    "iconPath": "unity3d.svg"
+  },
+  {
+    "name": "Godot",
+    "iconPath": "godotengine.svg"
+  },
+  {
+    "name": "Python",
+    "iconPath": "python-logo-only.svg"
+  }
+]

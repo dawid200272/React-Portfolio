@@ -1,0 +1,20 @@
+[
+  {
+    "name": "FlashCardApp",
+    "description": "Desktop flash card application made with C# and WPF. App uses AnkiConnectApi to connect with Anki.",
+    "skills": ["C#", "WPF"],
+    "source": "https://github.com/dawid200272/FlashcardApp"
+  },
+  {
+    "name": "PomodoroApp",
+    "description": "Simple pomodoro application made with C# and AvaloniaUI.",
+    "skills": ["C#", "AvaloniaUI"],
+    "source": "https://github.com/dawid200272/PomodoroApp"
+  },
+  {
+    "name": "ReactTodoApp",
+    "description": "Simple todo application made with React. Todo data is loaded from external api hosted on Express Api Server. App state is managed with Redux.",
+    "skills": ["React", "Express", "Node"],
+    "source": "https://github.com/dawid200272/React-Todo-App"
+  }
+]
