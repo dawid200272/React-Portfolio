@@ -6,7 +6,7 @@ import styles from "../scss/components/TechItem.module.scss";
 interface TechItemProps {
   item: ItemType;
 }
-const assetsDirPath = "/src/assets/icons/";
+const assetsDirPath = "/assets/icons/";
 const imageHeight = "10rem";
 
 const TechItem: React.FC<TechItemProps> = ({ item }) => {
